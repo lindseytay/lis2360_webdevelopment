@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document created by Lindsey Taylor, Spring 2019*/
+
+body {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 16px;
+	line-height: 1.8em;
+	color: #000000;
+	background-color: #B3C8DB;
+	padding: 50px 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 34px;
+	padding: 10px;
+	font-variant: small-caps;
+	letter-spacing: .3em;
+	line-height: 3em;
+	border: double #DB7053 5px;
+	background-color: #4B78B2;
+}
+h2 {
+	font-size: 22px;
+	padding: 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.3em;
+	border: double #DB7053 5px;
+	background-color: #4B78B2;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.3em;
+	padding: 10px;
+	font-variant: small-caps;
+	font-style: italic;
+	border: double #DB7053 5px;
+	background-color: #4B78B2;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #4B78B2;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #4B78B2;
+	text-decoration: none;
+}
+a:hover {
+	color: #DB7053;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+#tab1 {
+	border: double #DB7053 5px;
+}
+#td1 {
+	padding: 6px;
+	border: solid #DB7053 1px;
+	background-color: #4B78B2;
+}
+#th1 {
+	font-weight: bold;
+	background-color: #4B78B2;
+	text-align: center;
+	padding: 6px;
+    border: solid #4B78B2 1px;
+}
+
+#tab2 {
+    padding: 1px;
+    background-color: #4B78B2;
+    border: double #DB7053 5px;
+}
+#td2 {
+    padding: 5px;
+    border: solid #DB7053 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #4B78B2 1px;
+}
+
+img {
+	border: double #DB7053 5px;
+	padding: 5px;
+	margin: 10px 0px;
+	background-color: #4B78B2;
+
+}
+
+iframe {
+	border: double #DB7053 5px;
+	background-color: #4B78B2;
+	padding: 5px;
+	margin: 10px 0px;
+}

@@ -23,6 +23,7 @@ h1 {
 	line-height: 3em;
 	border: double #DB7053 5px;
 	background-color: #4B78B2;
+	width: 1090px;
 }
 h2 {
 	font-size: 22px;
@@ -31,6 +32,7 @@ h2 {
 	letter-spacing: 0.3em;
 	border: double #DB7053 5px;
 	background-color: #4B78B2;
+	width: 720px;
 }
 h3 {
 	font-size: 20px;
@@ -96,6 +98,7 @@ ol {
 /* border styles ------------------------------------ */
 hr {
 	border: solid #4B78B2 1px;
+	width: 1120px;
 }
 
 img {
@@ -111,4 +114,75 @@ iframe {
 	background-color: #4B78B2;
 	padding: 5px;
 	margin: 10px 0px;
+}
+
+/* div styles for page layout */
+#container {
+	width: 1160px;
+	margin: 0 auto;
+	background-color: #93aed2;
+	overflow: hidden;
+}
+
+#header { 
+	width: 100%; 
+	background-color: #93aed2;
+	border-bottom: solid #4B78B2 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#content1 { 
+	width: 750px;
+	float: left; 
+	padding-bottom: 40px;
+	padding-left: 20px;
+	background-color: #93aed2;
+	
+}
+
+#content2 {
+	width: 750px;
+	height: 400px;
+	float: left; 
+	padding-bottom: 40px;
+	padding-left: 20px;
+	background-color: #93aed2;
+}
+
+#sidebar1 { 
+	width: 280px; 
+	float: left;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-left: 40px;
+	background: #4B78B2;
+	border: double #DB7053 5px;
+}
+
+#sidebar1 p {
+	width: 230px;
+	padding: 0px;
+	text-align: left;
+}
+
+#sidebar2 {
+	width: 280px; 
+	float: left;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #93aed2;
+	border-top: solid #4B78B2 2px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 40px;
 }

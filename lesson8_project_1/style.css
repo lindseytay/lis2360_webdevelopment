@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #2E2124;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+h4 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+table {
+	border: solid #2E2124 1px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #2E2124 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #2E2124;
+	text-align: center;
+	padding: 6px;
+	border: solid #2E2124 1px;
+}
+a:link {
+	color: #58C2CC;
+}
+a:visited {
+	color: #58C2CC;
+}
+a:hover {
+	color: #58C2CC;
+	text-decoration: none;
+}
+
+
+#splash{
+    height: 1000px;
+    background: url(images/cover.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+#overview{
+    background-color: #58C2CC;
+    height: 1000px;
+}
+
+#media{
+    height: 1000px;
+    background: url(images/codeimg.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+#references{
+    background-color: #BAF9FF;
+    height: 1000px;
+}
+
+#footer{
+    background-color: #3C8990;
+    height: 1000px;
+}
+
+/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: #ffffff;
+}	
+
+#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+	padding-left: 70px;
+} 
+
+#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+
+#menu li a.button {
+	font-size: 20px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 100px 20px 100px; 
+}
+
+/* change button color when mouse hovers over */
+#menu li a.button:hover {
+	background-color: #2E2124;
+}  
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+#title-page{
+ 	width: 100%;
+  	padding-top: 10px;
+  	color: #2E2124;
+  	text-align: center;
+}
+
+#title-page h1 {
+  	font-family: 'Hind', sans-serif; 
+  	font-size: 80px; 	
+  	text-shadow: 2px 2px #000;
+}
+
+#title-page h3 {
+  	font-size: 2em;
+  	font-style: italic;
+  	margin: 0 40px;
+  	padding-bottom: 20px;
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+/* ---------------------- MISC -----------------------------*/
+
+.fltright{
+	float:right;
+	margin: 20px;
+}
+.fltleft{
+	float:left;
+	margin: 20px 20px 20px 0;
+}
+
+ 
